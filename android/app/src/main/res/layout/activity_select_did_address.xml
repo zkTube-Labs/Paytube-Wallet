@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_82000000">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_pop_address_book"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/layout_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="32dp">
+
+                <ImageView
+                    android:id="@+id/img_vdns"
+                    android:layout_width="29dp"
+                    android:layout_height="29dp"
+                    android:background="@mipmap/ic_banke_select_did" />
+
+                <TextView
+                    android:id="@+id/txt_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_did_title"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img_vdns"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:maxWidth="200dp"
+                    android:ellipsize="middle"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_apply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_apply"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/txt_title"
+                    android:layout_marginLeft="20dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_title_did"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_get_did"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="32dp"
+                android:layout_below="@+id/layout_top"
+                android:layout_marginTop="8dp"
+                android:maxWidth="260dp"
+                android:ellipsize="middle"
+                />
+
+            <ImageView
+                android:id="@+id/img_eyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_banke_moneny_nosee"
+                android:layout_marginTop="-3dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_alignBottom="@+id/txt_title_did"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="21dp" />
+
+            <LinearLayout
+                android:id="@+id/root_content"
+                android:layout_below="@+id/txt_title_did"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_addWallet"
+                    android:layout_width="322dp"
+                    android:layout_height="42dp"
+                    android:layout_below="@+id/txt_title_did"
+                    android:layout_marginTop="23dp"
+                    android:visibility="gone"
+                    android:background="@mipmap/ic_banke_add_wallet"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/root_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="38dp"
+                android:layout_marginBottom="54dp">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:textAllCaps="false"
+                    android:layout_width="104dp"
+                    android:layout_height="35dp"
+                    android:text="@string/dialog_cancel"
+                    android:layout_marginRight="12dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/color_586883"
+                    android:background="@mipmap/bg_vdns_btn_cancel" />
+
+                <Button
+                    android:id="@+id/btn_allow"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:textAllCaps="false"
+                    android:layout_width="104dp"
+                    android:layout_height="35dp"
+                    android:text="@string/allow"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_select" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

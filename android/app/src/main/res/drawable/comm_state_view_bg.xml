@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 正常 -->
+    <item android:drawable="@drawable/bg_view_unselect" android:state_focused="false" />
+    <!-- 按下 -->
+    <item android:drawable="@drawable/bg_view_select" android:state_focused="true" />
+
+</selector>

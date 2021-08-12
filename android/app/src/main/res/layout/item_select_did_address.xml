@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginLeft="19dp"
+    android:layout_marginRight="19dp"
+    android:layout_height="42dp"
+    android:background="@mipmap/bg_set_permission">
+
+    <ImageView
+        android:id="@+id/img_item"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        tools:src="@mipmap/ic_add_import_wallet" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="wallet 1"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:layout_toRightOf="@+id/img_item"
+        android:layout_alignTop="@+id/img_item"
+        android:layout_marginLeft="16dp"
+        android:layout_toLeftOf="@+id/tv_amount"
+        android:singleLine="true"
+        android:ellipsize="middle" />
+
+    <TextView
+        android:id="@+id/tv_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="***"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/img_item"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="47dp"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/tv_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0x123455678945611234556789456112345567894561"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_12"
+        android:layout_toRightOf="@+id/img_item"
+        android:layout_alignBottom="@+id/img_item"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="47dp"
+        android:singleLine="true"
+        android:ellipsize="middle" />
+
+    <ImageView
+        android:id="@+id/img_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:background="@mipmap/ic_jt_white"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="150dp"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:layout_centerVertical="true"
+            android:drawablePadding="2dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="标题"
+            android:layout_toRightOf="@+id/back_iv"
+            />
+
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:padding="15dp"
+            android:src="@mipmap/icon_web_fanhui" />
+
+
+        <TextView
+            android:id="@+id/titlebar_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="80dp"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17.28dp"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="#0079FC"
+            android:textSize="@dimen/sp_12"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_right"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/bg_web_title_right"
+            >
+            <RelativeLayout
+                android:id="@+id/refresh_menu"
+                android:layout_width="42.5dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/iv_refresh_menu"
+                    android:layout_width="21dp"
+                    android:layout_height="18dp"
+                    android:padding="14dp"
+                    android:background="@mipmap/ic_html_banke_refresh"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_gravity="center"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="#F2F3F4"
+                />
+            <RelativeLayout
+                android:id="@+id/back_home"
+                android:layout_width="42.5dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:padding="15dp"
+                    android:background="@mipmap/icon_home"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_gravity="center"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

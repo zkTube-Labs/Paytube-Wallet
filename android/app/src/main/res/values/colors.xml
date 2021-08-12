@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 导航栏颜色 -->
+    <color name="colorPrimary">#ffffff</color>
+    <!-- 通知栏颜色 -->
+    <color name="colorPrimaryDark">#ffffff</color>
+    <!-- 控件选中后颜色 -->
+    <color name="colorAccent">#586883</color>
+    <!-- 主题色 -->
+    <color name="colorMain">#ffffff</color>
+
+    <!-- 首页标题文字颜色 -->
+    <color name="colorMainTitleText">#4A4A4A</color>
+
+    <!-- 首页底部文字颜色 -->
+    <color name="colorMainBottomSelectText">#4A4A4A</color>
+    <color name="colorMainBottomUnSelectText">#9B9B9B</color>
+
+    <!-- 行情tab文字颜色 -->
+    <color name="colorMarketTabText">#586883</color>
+
+    <!-- 消息中心文字阅读颜色 -->
+    <color name="colorMessageSelectText">#494949</color>
+    <color name="colorMessageUnSelectText">#F6F5F3</color>
+
+    <!-- 总资产饼状指示线颜色 -->
+    <color name="colorAssetsPieChartLineColor">#000000</color>
+    <!-- 总资产饼状百分比文字颜色 -->
+    <color name="colorAssetsPieChartValueTextColor">#000000</color>
+
+    <!-- 总资产圆点颜色 -->
+    <color name="color_assets_btc">#FCC436</color>
+    <color name="color_assets_eth">#5016FD</color>
+    <color name="color_assets_eos">#888888</color>
+    <color name="color_assets_vns">#47C5FC</color>
+    <color name="color_assets_btm">#434261</color>
+    <color name="color_assets_ltc">#0B538E</color>
+    <color name="color_assets_dash">#3A74BE</color>
+    <color name="color_assets_bch">#FFCB5A</color>
+    <color name="color_assets_usdt">#00A478</color>
+    <color name="color_assets_gps">#C801FF</color>
+
+    <!-- 买/卖ram -->
+    <color name="colorBuyRam">#33D371</color>
+    <color name="colorSellRam">#586883</color>
+
+    <!-- 网络成交买/卖ram -->
+    <color name="colorNetworkBuyRam">#33D371</color>
+    <color name="colorNetworkSellRam">#FF6760</color>
+
+    <!-- pin错误码提示 -->
+    <color name="colorPinErrorHint">#FF001F</color>
+    <color name="colorPinHint">#4A4A4A</color>
+
+    <!-- 冷端九宫格选择助记词行背景色 -->
+    <color name="colorSelectWordsBackground">#E6EAF0</color>
+    <!-- 冷端九宫格未选择助记词行背景色 -->
+    <color name="colorUnSelectWordsBackground">#ffffff</color>
+
+    <!-- 选择助记词字体色 -->
+    <color name="colorSelectWords">#586883</color>
+    <!-- 未选择助记词字体色 -->
+    <color name="colorUnSelectWords">#ACBBCF</color>
+
+    <!-- 显示助记词字体色 -->
+    <color name="colorShowWordsText">#586883</color>
+    <!-- 显示助记词背景色 -->
+    <color name="colorShowWordsBackground">#F6F9FC</color>
+    <!-- 填入助记词字体色 -->
+    <color name="colorWriteWordsText">#586883</color>
+    <!-- 填入助记词背景色 -->
+    <color name="colorWriteWordsBackground">#F6F9FC</color>
+
+    <!-- 查看公钥界面的说明提示颜色 -->
+    <color name="colorLookKeyCopyDes">#586883</color>
+
+    <!-- 交易记录 转出的文字颜色 -->
+    <color name="colorTransOutText">#586883</color>
+    <!-- 交易记录 转入的文字颜色 -->
+    <color name="colorTransInText">#33D371</color>
+
+    <!-- gps绑定手机号 -->
+    <color name="colorGpsBindPhone">#E8C582</color>
+
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#87000000</color>
+    <color name="text_disabled">#38000000</color>
+
+    <!-- 闪屏页背景颜色 -->
+    <color name="color_splash">#ffffff</color>
+    <!-- Ram走势图的渐变外线色 -->
+    <color name="color_ram_cubic_line">#FFA085FF</color>
+
+    <color name="color_ffcfcfcf">#ffcfcfcf</color>
+    <color name="color_ff9d9d9d">#ff9d9d9d</color>
+    <color name="white">#ffffff</color>
+    <color name="color_1a000000">#1a000000</color>
+    <color name="color_524C5B">#524C5B</color>
+    <color name="black">#000000</color>
+    <color name="col_180f27">#180f27</color>
+    <color name="color_F0F1F6">#F0F1F6</color>
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_787878">#787878</color>
+    <color name="color_007AFF">#007AFF</color>
+    <color name="color_c8c8c8">#c8c8c8</color>
+    <color name="color_ffd350">#ffd350</color>
+    <color name="color_F6D357">#F6D357</color>
+    <color name="color_674920">#674920</color>
+    <color name="color_7f674920">#7f674920</color>//50%
+    <color name="color_99674920">#99674920</color>//60%
+    <color name="color_30674920">#30674920</color>//18.78%
+    <color name="color_4c674920">#4c674920</color>//30%
+    <color name="color_51674920">#51674920</color>//20%
+    <color name="color_F5F4F1">#F5F4F1</color>
+    <color name="color_F4F4F4">#F4F4F4</color>
+    <color name="color_CAC3BB">#CAC3BB</color>
+    <color name="color_30CAC3BB">#30CAC3BB</color>//18.78%
+    <color name="color_7ED321">#7ED321</color>
+    <color name="color_D97700">#D97700</color>
+    <color name="color_E54C2E">#E54C2E</color>
+    <color name="color_CDBBA9">#CDBBA9</color>
+    <color name="color_F6F5F3">#F6F5F3</color>
+    <color name="color_F2F2F2">#F2F2F2</color>
+    <color name="color_D8D8D8">#D8D8D8</color>
+    <color name="color_EDEDED">#EDEDED</color>
+    <color name="color_F6F6F6">#F6F6F6</color>
+    <color name="color_b89043">#b89043</color>
+    <color name="color_82000000">#82000000</color> //51%
+    <color name="color_417505">#417505</color>
+    <color name="color_9B9B9B">#9B9B9B</color>
+    <color name="color_E54B2F">#E54B2F</color>
+    <color name="color_E54C2F">#E54C2F</color>
+    <color name="color_009900">#009900</color>
+    <color name="color_236A23">#236A23</color>
+    <color name="color_80A7CE">#80A7CE</color>
+    <color name="color_99CCFF">#99CCFF</color>
+    <color name="color_009DFF">#009DFF</color>
+    <color name="color_6B6B6B">#6B6B6B</color>
+    <color name="color_B89043">#B89043</color>
+    <color name="color_47B8EA">#47B8EA</color>
+
+    <color name="color_1308FE">#1308FE</color>
+    <color name="color_A3A3A3">#A3A3A3</color>
+    <color name="color_979797">#979797</color>
+    <color name="color_CFCFCF">#CFCFCF</color>
+    <color name="color_4A4A4A">#4A4A4A</color>
+    <color name="color_F0F0F0">#F0F0F0</color>
+    <color name="color_B8B2AA">#B8B2AA</color>
+    <color name="color_171F24">#171F24</color>
+    <color name="color_777F99">#777F99</color>
+    <color name="color_FCFCFC">#FCFCFC</color>
+    <color name="color_F6A93B">#F6A93B</color>
+    <color name="color_F42850">#F42850</color>
+    <color name="color_F64769">#F64769</color>
+    <color name="color_410ADF">#410ADF</color>
+    <color name="color_DC9250">#DC9250</color>
+    <color name="color_E6FAFAFA">#E6FAFAFA</color>
+    <color name="color_494949">#494949</color>
+    <color name="color_9D9D9D">#9D9D9D</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_444444">#FF444444</color>
+    <color name="color_D7DDE1">#FFD7DDE1</color>
+    <color name="color_E5E5E5">#E5E5E5</color>
+    <color name="color_809B9B9B">#809B9B9B</color>
+    <color name="color_54A000">#54A000</color>
+    <color name="color_252631">#252631</color>
+    <color name="color_F5A623">#F5A623</color>
+    <color name="color_FF001F">#FF001F</color>
+    <color name="color_191919">#191919</color>
+
+    <color name="color_333333">#333333</color>
+    <color name="color_2B2B2B">#2B2B2B</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_E8C582">#E8C582</color>
+
+    <color name="color_777777">#777777</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_DFDFDF">#DFDFDF</color>
+    <color name="color_EAB341">#EAB341</color>
+
+    <color name="color_E0BB6E">#E0BB6E</color>
+    <color name="color_DFBA6D">#DFBA6D</color>
+    <color name="color_FAAF4E">#FAAF4E</color>
+    <color name="color_303231">#303231</color>
+    <color name="color_111111">#111111</color>
+    <color name="color_363636">#363636</color>
+    <color name="color_1bb6ef">#1bb6ef</color>
+    <color name="color_dddddd">#dddddd</color>
+
+    <color name="color_F2F3F4">#F2F3F4</color>
+    <color name="color_ACBBCF">#ACBBCF</color>
+    <color name="color_586883">#586883</color>
+    <color name="color_F6F9FC">#F6F9FC</color>
+    <color name="color_33D371">#33D371</color>
+    <color name="color_FFFBC8">#FFFBC8</color>
+    <color name="color_FF6760">#FF6760</color>
+    <color name="color_0091FF">#0091FF</color>
+    <color name="color_0079FC">#0079FC</color>
+    <color name="color_98A6B9">#98A6B9</color>
+    <color name="color_5A6872">#5A6872</color>
+    <color name="color_D1D1D1">#D1D1D1</color>
+    <color name="color_D8000000">#D8000000</color>
+    <color name="color_262626">#262626</color>
+    <color name="color_373737">#373737</color>
+    <color name="color_80000000">#80000000</color>
+</resources>

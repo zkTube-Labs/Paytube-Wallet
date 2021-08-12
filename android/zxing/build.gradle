@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+    }
+}
+
+dependencies {
+    compileOnly 'com.google.zxing:core:3.3.3'
+    compileOnly "cn.bingoogolapple:bga-qrcode-core:1.3.7"
+}

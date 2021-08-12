@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml:1:1-53
+INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml:1:1-53
+INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml:1:1-53
+	package
+		ADDED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml:1:11-51
+		INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+		INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml:1:1-53
+uses-sdk
+INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+		ADDED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+		INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+		ADDED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml
+		INJECTED from E:\CoinID_DEV\coinid-android\zxing\src\main\AndroidManifest.xml

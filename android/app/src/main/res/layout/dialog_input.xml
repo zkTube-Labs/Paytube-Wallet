@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="274dp"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#4A4A4A"
+            android:textSize="13sp"
+            android:text=""
+            tools:text="标题" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#4A4A4A"
+            android:textSize="13sp"
+            android:text=""
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            tools:text="警告：若无妥善备份，删除钱包后将无法找回钱包，请慎重处理该操作"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/comm_state_view_bg"
+            android:gravity="center_vertical"
+            android:minHeight="30dp"
+            android:padding="@dimen/dp_10"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:textColor="#586883"
+            android:textColorHint="#ACBBCF"
+            android:textSize="@dimen/sp_12"
+            android:inputType="textPassword"
+            android:hint="@string/tv_pwd" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D8D8D8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cancel_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/dialog_cancel"
+                android:textColor="#9B9B9B"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#D8D8D8" />
+
+            <TextView
+                android:id="@+id/confirm_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/dialog_confirm"
+                android:textColor="#4A4A4A"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

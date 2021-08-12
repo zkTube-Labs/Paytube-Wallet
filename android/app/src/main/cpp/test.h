@@ -1,0 +1,11 @@
+#include "DataTypeDefine.h"
+void testsha256();
+void testhmac_sha512();
+void testPBKDF2_HMAC();
+void testsecp256k1();
+void testripemd160();
+void testhash160();
+void testBase58Check();
+void testWallet();
+u8 *testTransaction();
+void testAES();

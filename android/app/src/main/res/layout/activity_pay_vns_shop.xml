@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_82000000">
+
+    <LinearLayout
+        android:id="@+id/root_transactionInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/view_pay_vns_bottom_border"
+        android:orientation="vertical"
+        android:paddingTop="12dp">
+
+        <!-- 标题 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/payInfo"
+                android:textColor="@color/color_586883"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="55dp"
+                android:layout_height="34dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_pay_close"
+                android:padding="12.5dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="19dp"
+            android:paddingRight="19dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/tv_trade_information_type"
+                    android:textColor="@color/color_586883"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="261dp"
+                    android:layout_height="42dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/view_border"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:padding="14dp"
+                    android:textColor="@color/color_586883"
+                    android:textSize="@dimen/sp_12"
+                    tools:text="兑换EHE" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/payAddress"
+                    android:textColor="@color/color_586883"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/tv_fromAddress"
+                    android:layout_width="261dp"
+                    android:layout_height="42dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/view_border"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    android:textColor="@color/color_ACBBCF"
+                    android:textSize="@dimen/sp_12"
+                    tools:text="0xeAB3VoN4LJEYjbXTxhB9KWS5b71vebfb"
+                    android:singleLine="true"
+                    android:ellipsize="middle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/contract_address"
+                    android:textColor="@color/color_586883"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/tv_contractAddress"
+                    android:layout_width="261dp"
+                    android:layout_height="42dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/view_border"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    android:textColor="@color/color_ACBBCF"
+                    android:textSize="@dimen/sp_12"
+                    tools:text="0xeAB3VoN4LJEYjbXTxhB9KWS5b71vebfb"
+                    android:singleLine="true"
+                    android:ellipsize="middle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/convertibleMoney"
+                    android:textColor="@color/color_586883"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/tv_money"
+                    android:layout_width="261dp"
+                    android:layout_height="42dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/view_border"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:padding="14dp"
+                    android:textColor="@color/color_586883"
+                    android:textSize="@dimen/sp_12"
+                    tools:text="10 EHE" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/minerFee"
+                    android:textColor="@color/color_586883"
+                    android:textSize="10sp" />
+
+                <LinearLayout
+                    android:layout_width="261dp"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/view_border"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp_10">
+
+                    <TextView
+                        android:id="@+id/tv_minersFeeNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:textColor="@color/color_586883"
+                        android:textSize="10sp"
+                        tools:text="0 ETH" />
+
+                    <TextView
+                        android:id="@+id/tv_minersFeeMoney"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:textColor="@color/color_ACBBCF"
+                        android:textSize="10sp"
+                        tools:text="≈ ¥50.00" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="@dimen/dp_72"
+                android:text="@string/vdns_miners_fees_des"
+                android:textSize="10sp"
+                android:textColor="@color/color_586883" />
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/btn_next"
+                android:textAllCaps="false"
+                android:layout_width="156dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="38dp"
+                android:layout_marginBottom="49dp"
+                android:background="@drawable/button_select"
+                android:text="@string/tv_next"
+                android:textSize="@dimen/sp_12"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+include ':mvp'
+include ':library'
+include ':zxing'
+include ':app'
